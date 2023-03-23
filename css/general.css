@@ -36,6 +36,7 @@
 --- 04 Border radius ---
 
   Default: 9px
+  Meals cards: 11px
 
 --- 05 Whitespace ---
 
@@ -135,8 +136,36 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 300ms;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }
 
 /* ---- Grid and Layout ---- */
